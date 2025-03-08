@@ -1,0 +1,43 @@
+# Ignore node_modules and build artifacts
+my-frontend/node_modules/
+my-frontend/build/
+my-frontend/.next/
+my-frontend/.turbo/
+my-frontend/.parcel-cache/
+my-frontend/.eslintcache/
+
+# Logs
+my-frontend/npm-debug.log*
+my-frontend/yarn-debug.log*
+my-frontend/yarn-error.log*
+my-frontend/pnpm-debug.log*
+my-frontend/.pnp
+my-frontend/.pnp.js
+
+# Editor/IDE settings
+my-frontend/.idea/
+my-frontend/.vscode/
+my-frontend/.DS_Store
+my-frontend/.env.local
+my-frontend/.env.development.local
+my-frontend/.env.test.local
+my-frontend/.env.production.local
+
+# Ignore compiled output and user secrets for ASP.NET
+MyAspNetReactApp/bin/
+MyAspNetReactApp/obj/
+MyAspNetReactApp/.vs/
+MyAspNetReactApp/appsettings.Development.json
+MyAspNetReactApp/appsettings.json
+MyAspNetReactApp/tempkey.jwk
+
+# Ignore dependency directories
+MyAspNetReactApp/node_modules/
+MyAspNetReactApp/.nuget/
+MyAspNetReactApp/packages/
+
+# Ignore logs and debug artifacts
+MyAspNetReactApp/*.log
+MyAspNetReactApp/*.cache
+MyAspNetReactApp/*.pdb
+MyAspNetReactApp/*.db
